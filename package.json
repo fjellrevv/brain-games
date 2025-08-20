@@ -20,7 +20,10 @@
     "url": "https://github.com/fjellrevv/brain-games/issues"
   },
   "bin": {
-  "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js"
   },
-  "homepage": "https://github.com/fjellrevv/brain-games#readme"
+  "homepage": "https://github.com/fjellrevv/brain-games#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
