@@ -1,0 +1,26 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "[![Actions Status](https://github.com/fjellrevv/brain-games/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/fjellrevv/brain-games/actions)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "bin/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fjellrevv/brain-games.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fjellrevv/brain-games/issues"
+  },
+  "bin": {
+  "brain-games": "bin/brain-games.js"
+  },
+  "homepage": "https://github.com/fjellrevv/brain-games#readme"
+}
