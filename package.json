@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
-    "bin/", "src/"
+    "bin/",
+    "src/"
   ],
   "repository": {
     "type": "git",
@@ -20,10 +21,18 @@
     "url": "https://github.com/fjellrevv/brain-games/issues"
   },
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
   },
   "homepage": "https://github.com/fjellrevv/brain-games#readme",
   "dependencies": {
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@eslint/create-config": "^1.10.0",
+    "@eslint/js": "^9.33.0",
+    "@stylistic/eslint-plugin": "^5.2.3",
+    "eslint": "^9.33.0",
+    "globals": "^16.3.0"
   }
 }
