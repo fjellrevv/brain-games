@@ -1,5 +1,5 @@
 import getRandomNum from '../randomNum.js'
-const rules = 'What is the result of the expression?'
+const rule = 'What is the result of the expression?'
 const max = 50, min = 1
 const operators = ['+', '-', '*']
 const calc = (a, b, operator) => {
@@ -15,11 +15,11 @@ const calc = (a, b, operator) => {
   }
 }
 const getQuestionAnswer = () => {
-  const a = getRandomNum(max, min)
-  const b = getRandomNum(max, min)
+  const a = getRandomNum(min, max)
+  const b = getRandomNum(min, max)
   const operator = operators[getRandomNum(operators.length - 1, 0)]
   const question = `${a} ${operator} ${b}`
   const answer = calc(a, b, operator).toString()
   return [question, answer]
 }
-export { rules, getQuestionAnswer }
+export { rule, getQuestionAnswer }
