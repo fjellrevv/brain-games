@@ -1,5 +1,3 @@
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/zlvtv/brain-game/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/zlvtv/brain-game/actions)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=zlvtv_brain-games&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=zlvtv_brain-games)
 
 ## Установка и запуск
