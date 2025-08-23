@@ -4,7 +4,7 @@
 
 ```bash
 # Установите пакет глобально
-npm install -g @hexlet/code
+npm install -g @zlvtv/brain-games
 
 # Запустите нужную игру
 brain-games    # Приветствие
@@ -28,3 +28,4 @@ brain-prime    # Простое число?
 [![asciicast](https://asciinema.org/a/b3R7acUiiTNGgMz2BauK0E7KB.svg)](https://asciinema.org/a/b3R7acUiiTNGgMz2BauK0E7KB)
 ### Простое число?
 [![asciicast](https://asciinema.org/a/08BodENt4Sh2npiRzQJ4paNoK.svg)](https://asciinema.org/a/08BodENt4Sh2npiRzQJ4paNoK)
+
